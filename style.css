@@ -1,0 +1,225 @@
+   /* Add your CSS styles here */
+   body {
+    font-family: Arial, sans-serif;
+
+  }
+  header  {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 2px;
+    height: 75px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+  }
+  header img{
+    margin-bottom: -15px;
+    width: 50px;
+    height: 50px;
+    
+  }
+  header > .product img{
+    position: absolute;
+    display: none;
+  }
+  header > .container{
+    position: relative;
+    display: -moz-inline-box;
+    box-sizing: border-box;
+  }
+  .produc {
+    height: 170px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .produc a{
+      text-decoration: none;
+      border: 3px solid black;
+      padding: 15px 20px;
+      background-color: #333;
+      color:aliceblue;
+  }
+  .produc a:hover{
+      transition: 0.3s;
+      transform:translateY(-3px) ;
+  }
+  .input {
+    width: 100%;
+    max-width: 120px;
+    height: 5px;
+    padding: 12px;
+    border-radius: 12px;
+    border: 1.5px solid lightgrey;  
+  }
+  .input:hover {
+    border: 2px solid lightgrey;
+    box-shadow: 0px 0px 20px -17px;
+  }
+  
+  .input:active {
+    transform: scale(0.95);
+  }
+  
+  .input:focus {
+    border: 2px solid grey;
+  }
+ 
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-left: 170px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .product {
+    width: 400px;
+    box-sizing: border-box;
+    padding: 20px;
+  }
+  .product img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  .product h3 {
+      text-align: center;
+    margin: 0;
+    font-size: 1.2em;
+  }
+  .product p {
+    font-size: 0.9em;
+    color: #888;
+    margin: 10px 0;
+
+    text-align:center;
+  }
+  .product .price {
+    font-size: 1em;
+    font-weight: bold;
+    color: #333;
+    display: block;
+  }
+  .product .button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 0.9em;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.2s;
+    margin-left: 39.8%;
+  }
+  
+  .product .button:hover {
+    background-color: #555;
+    transform: translateY(-3px);
+    transition: 0.3s;
+  }
+  .container .product img {
+    display:block;
+      transition: all .2s;
+  }
+  .container .product img:hover{
+    transform: scale(1.1); /* cỡ zoom khi di chuột vào */
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  footer p {
+    margin: 0;
+    font-size: 0.9em;
+  }
+  footer a {
+    color: white;
+    text-decoration: none;
+  }
+  .Khang{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .Khang {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-left: 170px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .Khang .Hoddie img {
+    display:block;
+      transition: all .2s;
+  }
+  .chu p {
+    margin: 0;
+    font-size: 0.9em;
+  }
+  .chu a {
+    color: white;
+    text-decoration: none;
+  }
+  .chu {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  .Hoddie p {
+    font-size: 0.9em;
+    color: #888;
+    margin: 10px 0;
+
+    text-align:center;
+  }
+  .Hoddie .K:hover {
+    background-color: #555;
+    transform: translateY(-3px);
+    transition: 0.3s;}
+    .Khang .Hoddie img:hover{
+      transform: scale(1.1);
+    }
+    .Hoddie .Chu {
+      font-size: 1em;
+      font-weight: bold;
+      color: #333;
+      display: block;
+    }
+    .Hoddie h3 {
+      text-align: center;
+    margin: 0;
+    font-size: 1.2em;
+  }
+  .Hoddie p {
+    font-size: 0.9em;
+    color: #888;
+    margin: 10px 0;
+
+    text-align:center;
+  }
+  .Khang {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-left: 170px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .Hoddie a:hover{
+    transition: 0.3s;
+    transform:translateY(-3px) ;
+  }
+  .Hoddie img{
+    width: 80%;
+  }
+  .Hoddie p{
+    text-align: center;
+  }
+  .K{
+    text-align: center;
+  }
+  
